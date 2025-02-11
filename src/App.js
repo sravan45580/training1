@@ -50,12 +50,35 @@
 // }
 // export default App
 
+// import React from 'react'
+// import FBCStateEx from './stateexample/FBCStateEx'
+// const App = () => {
+//   return (
+//     <div>
+//         <FBCStateEx/>
+//     </div>
+//   )
+// }
+// export default App
+
+// import React from 'react'
+// import UseEffectEx from './hooksexample/UseEffectEx'
+// const App= () =>
+//    {
+//   return (
+//     <div>
+//       <UseEffectEx/>
+//     </div>
+//   )
+// }
+// export default App
+ 
 import React from 'react'
-import FBCStateEx from './stateexample/FBCStateEx'
-const App = () => {
+import RefExamples from './hooksexample/RefExamples'
+export const App = () => {
   return (
     <div>
-        <FBCStateEx/>
+      <RefExamples/>
     </div>
   )
 }
